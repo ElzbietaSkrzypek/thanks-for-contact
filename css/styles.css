@@ -308,7 +308,7 @@ a:hover {
     padding: 5%;
   }
   .navbar-toggler-icon, .navbar-collapse, .navbar-brand, h2{
-    font-size: xxx-large;
+    font-size: 3rem;
   }
   h3, h4 {
     font-size: xx-large;
