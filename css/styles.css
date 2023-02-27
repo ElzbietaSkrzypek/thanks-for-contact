@@ -1,0 +1,322 @@
+body {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+  /* display: inline-block; */
+}
+
+hr {
+  border: dotted #263159 6px;
+  border-bottom: none;
+  width: 4%;
+  display:inline-block;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Sacramento", cursive;
+  /* margin: 50px auto 0 auto; */
+  font-size: 5.65rem;
+  color: #263159;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #251749;
+}
+
+h3 {
+  color: #263159;
+  /* margin: 0; */
+}
+
+h4, h5 {
+  color: #263159;
+  /* margin: 0; */
+  font-weight: normal;
+}
+
+
+p {
+  color: #40514E;
+}
+
+
+a {
+  color: #de607f;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%, 5%, 0%, 5%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #40514E;
+}
+
+
+.section_title {
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+
+/* button */
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #de607f;
+  padding: 6px 15px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5dea9;
+  text-decoration: none;
+}
+
+
+/* TOP CONTAINER */
+
+.top-container {
+  width: 100%;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+  background-color: #FFFBEB;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #263159;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: 1;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFBEB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1,5rem;
+}
+
+.navbar a:hover {
+  /* background: #ddd; */
+  text-decoration-color: black;
+}
+
+.prifile {
+  padding: 5%, 10%;
+  width: 60%;
+}
+
+.profile-img {
+  padding-top: 6%;
+  width: 25%;
+}
+
+.inl-block {
+  display: inline-block;
+}
+
+.personal_description {
+  padding-bottom: 5%;
+}
+
+/* MIDDLE CONTAINER */
+
+.middle-container {
+  padding: 5% 15%;
+}
+
+.education {
+  padding: 5% 15%;
+  align-items: center;
+}
+
+.courses {
+  padding: 5% 15%;
+  align-items: center;
+}
+
+.graduation {
+  width: 60%;
+}
+
+/* work experience  */
+
+.work_exp {
+  width: 100%;
+  align-items: center;
+  padding: 5%;
+}
+
+.work {
+  margin: 1%;
+}
+
+
+.col_work {
+  border: dotted #FFCCCCAA 3px;
+  backface-visibility: 10%;
+  border-radius: 100%;
+}
+
+.euro_tutoring,  .pure-internship, .pure-assistant, {
+  padding: 1%;
+  display: inline-block;
+}
+
+.pure-junior {
+  padding: 1%;
+  display: inline-block;
+  position: relative;
+}
+
+.responsibilities {
+  font-size: 0.8rem;
+  background-color: #FEFCF3;
+}
+
+/* skills */
+
+.underscore {
+  text-decoration: underline;
+}
+
+.problem-solving {
+  width: 25%;
+  float: right;
+  margin-left: 30%;
+}
+
+.portfolio-icon {
+  width: 4%;
+}
+
+.including-button {
+  display: inline-block;
+}
+
+.skill-row {
+  display: inline-block;
+  line-height: 2;
+  padding: 2%
+}
+
+.left {
+  width: 15%;
+  float: left;
+  margin-right: 3%;
+}
+
+.right {
+  width: 15%;
+  float: right;
+  margin-left: 3%;
+}
+
+.w_left {
+  text-align: left;
+}
+
+.python-description {
+  display: inline-block;
+}
+
+.w_right {
+  text-align: right;
+}
+
+
+/* contact form */
+.name {
+  width: 50%;
+  display: inline-block;
+}
+
+
+.footer-icon {
+  width: 2%;
+}
+
+.contact-me {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.contact-row {
+  text-align: left;
+  margin: 0;
+  padding-left: 20%;
+}
+
+.dna-tree {
+  max-width: 100%;
+}
+
+/*  BOTTOM CONTAINER */
+
+.bottom-container {
+  width: 100%;
+  text-align: center;
+  background-color: #66BFBF;
+  padding: 2%;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+}
+
+.owner {
+  margin-bottom: 0;
+  color: #EAF6F6;
+}
+
+
+@media (max-width: 1000px) {
+  .profile-img {
+    width: 40%;
+  }
+  .dna-tree {
+    width: 75%;
+    padding-left: 25%;
+  }
+  .contact-row {
+    text-align: left;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .middle-container {
+    padding: 5%;
+  }
+  .navbar-toggler-icon, .navbar-collapse, .navbar-brand, h2{
+    font-size: xxx-large;
+  }
+  h3, h4 {
+    font-size: xx-large;
+  }
+  .top-container {
+    padding-top: 13%;
+  }
+  h5, h6, p, a, .form-control, .btn {
+    font-size: x-large;
+  }
+  }
